@@ -31,3 +31,4 @@ BlackJack Proyecto Final 1ºSuperior en español
 *ayuda del blackjack sacada de internet, páginas de juegos y wikipedia.
 ****//PRINCIPALES PAGINAS VISITADAS\\****
 */
+Enlace a ejecutable .exe y .jar - https://drive.google.com/file/d/1bR2rkzP6PKhcnHTdyrzezL6LHaG3mgfo/view?usp=sharing
