@@ -1,10 +1,5 @@
 /* 
-*BLACKJACK v1.0 RELEASE
-*Imagenes de las cartas sacadas de internet
-*Fuentes sacadas de intrnet
-*Todas los códigos comentados
-*He generat el botons amb la página https://www.clickminded.com/button-generator/
-*añadidos todos los cometarios a valenciano
+*BLACKJACK DARIO RATA
 */
 
 package juego;
@@ -115,7 +110,7 @@ public class JuegoGUI {
 			// Draw Panel Ventana creditos
 			// Draw Panel Finestra creditos
 			ventanacreditos = new DrawFrame();
-			ventanacreditos.setBounds(0, 0, 500, 500);
+			ventanacreditos.setBounds(0, 0, 600, 500);
 			ventanacreditos.setLayout(null);
 
 			// Titul joc image
@@ -202,7 +197,7 @@ public class JuegoGUI {
 			creditos2.setFont(fuente4);
 			creditos2.setForeground(Color.WHITE);
 
-			creditos3 = new JLabel("V1.0 BETA");
+			creditos3 = new JLabel("0.1 ALPHA");
 			creditos3.setBounds(150, 100, 400, 400);
 			ventanacreditos.add(creditos3);
 			creditos3.setFont(fuente4);
@@ -363,12 +358,13 @@ public class JuegoGUI {
 
 	class botonCreditosListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
+
 			ventanamain.setVisible(false);
 			ventanacreditos.setVisible(true);
-			ventanacreditos.setLayout(null);
+			frameJuego.getContentPane().setLayout(null);
+			frameJuego.getContentPane().add(ventanacreditos);
 			frameJuego.setSize(500, 500);
-			frameJuego.setContentPane(ventanacreditos);
-			ventanacreditos.setBackground(Color.CYAN);
+
 		}
 
 	}
@@ -378,9 +374,9 @@ public class JuegoGUI {
 
 			ventanacreditos.setVisible(false);
 			ventanamain.setVisible(true);
-			ventanamain.setLayout(null);
+			frameJuego.getContentPane().setLayout(null);
+			frameJuego.getContentPane().add(ventanacreditos);
 			frameJuego.setSize(1024, 768);
-			frameJuego.setContentPane(ventanamain);
 		}
 
 	}
