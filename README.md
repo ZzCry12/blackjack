@@ -11,13 +11,7 @@ BlackJack Proyecto Final 1ºSuperior en español
 
 ****//ERRORES PRINCIPALES Y IDEAS NO REALIZADAS\\****
 
-*Cuando le das a la pantalla de creditos y luego le das a jugar la pantalla de juego se queda en blanco sin embargo si lo haces alreves funciona perfectamente
-
-*De momento no se han encontrado más errores
-
-*Cuando abres el ejecutable tienes que tener en cuenta de tener las carpetas de las imagenes y el texto si no el programa no abrirá ya que abrirá una excepción como que no encuentra dichas fuentes 
-
-*además si no tienes la carpeta de imagenes no habrá ni botones ni cartas ni nada.
+*Cuando le das a la pantalla de creditos y luego le das a jugar la pantalla de juego se queda en blanco sin embargo si lo haces alreves funciona perfectamente --- FIXED
 
 ****//ERRORES PRINCIPALES y IDEAS NO REALIZADAS\\****
 
